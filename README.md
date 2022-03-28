@@ -1,3 +1,15 @@
+This project uses a handful of library as follows:
+1. React Query (https://react-query.tanstack.com) to help us with fetching, caching and updating server state with ease.
+2. Next.js (https://nextjs.org) allow us to build static and server-side rendering with ease. Also many benefits such as page-based routing, image optimization with zero config.
+3. Chakra-UI for UI Component (https://chakra-ui.com)
+4. Emotion (CSS-in-JS) (https://emotion.sh). Mainly because chakra-ui is using it. We can also overide style easily.
+5. Color.js (https://github.com/luukdv/color.js) to get main color from the image.
+6. React Icons (https://react-icons.github.io/react-icons) to provide us a lot of icons.
+7. PouchDb (https://pouchdb.com) allow us to stored data in IndexedDB with nice APIs.
+
+<br />
+<br />
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
